@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-pipe=pickle.load(open("pp.pkl","rb"))
+pipe=pickle.load(open("pipe.pkl","rb"))
 page_by_img='''
 <style>
 body{
