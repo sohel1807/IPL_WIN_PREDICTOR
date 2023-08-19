@@ -50,7 +50,7 @@ if st.button('Predict probability'):
         st.text(BowlingTeam + ":-100%")
     else:
         st.text(BattingTeam + ":-"+str(round(result[0][1]*100))+'%')
-        st.text(BattingTeam + ":-"+str(round(result[0][0]*100))+'%')
+        st.text(BowlingTeam + ":-"+str(round(result[0][0]*100))+'%')
 
 
 
