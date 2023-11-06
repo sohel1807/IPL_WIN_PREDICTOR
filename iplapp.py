@@ -42,7 +42,7 @@ if st.button('Predict probability'):
     RRR=(runs_left*6)/balls_left
     final=pd.DataFrame({"BattingTeam":[BattingTeam],"BowlingTeam":[BowlingTeam],"City":[city],"runs_left":[runs_left],"total_run_y":[total_run_y],"balls_left":[balls_left],"wickets_left":[wickets_left],"CRR":[CRR],"RRR":[RRR]})
     result=pipe.predict_proba(final)
-    if (total_run_y==currentscore):
+    if (total_run_y>=currentscore):
         st.text(BattingTeam + ":-100%" )
         st.text(BowlingTeam + ":-0%")
     elif(wickets_left==0):
