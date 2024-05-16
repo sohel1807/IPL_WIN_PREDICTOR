@@ -17,7 +17,7 @@ To using Loan-default web application, follow these steps:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/sohel1807/Loan_default_prediction.git
+git clone https://github.com/sohel1807/IPL_Predictor_app.git
 ```
 ### 2. Navigate to website directory
 
