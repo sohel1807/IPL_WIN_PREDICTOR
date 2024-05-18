@@ -1,6 +1,9 @@
 # IPL_Predictor_app
 ## ipl matches winning probability
 
+## overview
+An IPL win prediction web application combines data science, machine learning, and web development to provide users with insightful predictions and an engaging user experience.
+
 ### Software requirements
 
 1. [VSCODEIDE](https://code.visualstudio.com/)
