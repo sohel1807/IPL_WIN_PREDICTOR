@@ -19,6 +19,9 @@ class PredictInput(BaseModel):
     wickets: int
     overs_completed: float
 
+@app.get("/")
+def simple():
+    return {"hello every one"}
 
 @app.post("/predict")
 def predict(data: PredictInput):
