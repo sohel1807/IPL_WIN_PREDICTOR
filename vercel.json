@@ -8,7 +8,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "iplapi.py"
+            "dest": "IPL_Predictor_app/iplapi.py"
         }
     ]
 }
