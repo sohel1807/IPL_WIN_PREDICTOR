@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 import sklearn
-pipe=joblib.load("pipe.pkl")
+pipe=pickle.load(open("pipe.pkl","rb"))
 page_by_img='''
 <style>
 body{
