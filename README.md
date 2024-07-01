@@ -20,12 +20,12 @@ To using Loan-default web application, follow these steps:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/sohel1807/IPL_Predictor_app.git
+git clone https://github.com/sohel1807/IPL_WIN_PREDICTOR.git
 ```
 ### 2. Navigate to website directory
 
 ```bash
-cd IPL_Predictor_app
+cd IPL_WIN_PREDICTOR
 ```
 ### 3. Install dependencies
 
