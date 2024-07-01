@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 import sklearn
-pipe=pickle.load(open("pipe.pkl","rb"))
+pipe=joblib.load("pipe.pkl")
 page_by_img='''
 <style>
 body{
@@ -16,7 +16,7 @@ st.title("IPL PREDICTOR")
 team=["Chennai Super Kings","Delhi Capitals","Gujarat Titans","Punjab Kings","Lucknow Super Giants","Mumbai Indians","Kolkata Knight Riders","Rajasthan Royals","Royal Challengers Bangalore","Sunrisers Hyderabad"]
 city=['Ahmedabad', 'Kolkata', 'Mumbai', 'Navi Mumbai', 'Pune', 'Dubai',
        'Abu Dhabi', 'Sharjah', 'Delhi', 'Chennai','Dharmashala', 'Hyderabad',
-       'Visakhapatnam', 'Bengaluru', 'Jaipur', 'Bangalore', 'Ranchi',
+       'Visakhapatnam', 'Bengaluru', 'Jaipur', 'Ranchi',
        'Nagpur', 'Johannesburg', 'Centurion', 'Port Elizabeth', 'Durban',
        'Kimberley', 'East London', 'Cape Town']
 col1,col2=st.columns(2)
