@@ -5,7 +5,7 @@ e repository, make your changes, and submit a pull request. Contributions are we
 The IPL Win Predictor is a web application that combines data science, machine learning, and web development to provide users with insightful predictions about the outcome of IPL matches. It also includes an API that allows users to make predictions programmatically.
 
 ### Web App
-The IPL Win Predictor web app is available at:
+The IPL Win Predictor web app is available at: https://iplwinpredictorapp.streamlit.app/
 
 ## Software Requirements
 1. [Visual Studio Code (VSCODE) IDE](https://code.visualstudio.com/)
