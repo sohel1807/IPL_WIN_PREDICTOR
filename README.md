@@ -3,42 +3,7 @@
 ## Overview
 The IPL Win Predictor is a web application that combines data science, machine learning, and web development to provide users with insightful predictions about the outcome of IPL matches. It also includes an API that allows users to make predictions programmatically.
 
-## Software Requirements
-1. [Visual Studio Code (VSCODE) IDE](https://code.visualstudio.com/)
-2. [GitHub Account](https://github.com/)
-3. [Git CLI](https://git-scm.com/downloads)
-4. [Streamlit](https://streamlit.io/cloud)
-5. [Data Source](https://www.kaggle.com/)
-
-## Getting Started
-
-### 1. Clone the Repository
-Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/sohel1807/IPL_WIN_PREDICTOR.git
-```
-
-### 2. Navigate to the project directory
-```bash
-cd IPL_WIN_PREDICTOR
-```
-
-### 3. Install dependencies
-```bash
-pip install streamlit
-```
-
-### 4. Run the development server
-Run the project on your local machine:
-```bash
-streamlit run iplapp.py
-```
-
-The web application will start running.
-
 ## IPL Win Predictor API
-
 This API predicts the winning probabilities of an IPL match based on the current game situation.
 
 ### Endpoint
@@ -94,8 +59,43 @@ print(response.json())
 ### Deployment
 This API is built and deployed. The model used for prediction is trained with `scikit-learn` and serialized using `pickle`.
 
+## Software Requirements
+1. [Visual Studio Code (VSCODE) IDE](https://code.visualstudio.com/)
+2. [GitHub Account](https://github.com/)
+3. [Git CLI](https://git-scm.com/downloads)
+4. [Streamlit](https://streamlit.io/cloud)
+5. [Data Source](https://www.kaggle.com/)
+
+## Getting Started
+
+### 1. Clone the Repository
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/sohel1807/IPL_WIN_PREDICTOR.git
+```
+
+### 2. Navigate to the project directory
+```bash
+cd IPL_WIN_PREDICTOR
+```
+
+### 3. Install dependencies
+```bash
+pip install streamlit
+```
+
+### 4. Run the development server
+Run the project on your local machine:
+```bash
+streamlit run iplapp.py
+```
+
+The web application will start running.
+
 ## Contributing
-If you'd like to contribute to the project, feel free to fork th
+If you'd like to contribute to the project, feel free to fork the repository, make your changes, and submit a pull request. Contributions are welcome and appreciated!
+
 ## Issues
 If you encounter any issues or have suggestions for improvement, please open an issue on GitHub, and we'll address it as soon as possible.
 
