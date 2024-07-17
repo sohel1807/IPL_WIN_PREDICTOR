@@ -1,5 +1,5 @@
 # IPL Win Predictor
-### Helooo every one hi this is new-brach.
+
 ## Overview
 The IPL Win Predictor is a web application that combines data science, machine learning, and web development to provide users with insightful predictions about the outcome of IPL matches. It also includes an API that allows users to make predictions programmatically.
 
