@@ -7,7 +7,7 @@ WORKDIR /app
 # copy
 COPY requirements.txt .
 COPY app.py .
-COPY main.pkl .
+COPY pipe1.pkl .
 
 # run
 RUN pip install -r requirements.txt
