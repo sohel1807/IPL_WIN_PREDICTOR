@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import sklearn
-pipe=pickle.load(open("pipe.pkl","rb"))
+pipe=pickle.load(open("pipe1.pkl","rb"))
 page_by_img='''
 <style>
 body{
