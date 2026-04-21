@@ -1,4 +1,4 @@
-from modal import Stub, build, enter, method, web_endpoint, Image, Mount
+from modal import App, build, enter, method, web_endpoint, Image, Mount
 from typing import Dict
 import pandas as pd
 import pickle
@@ -8,9 +8,9 @@ image = Image.debian_slim().pip_install(
     "pandas"
 )
 
-stub = Stub(name="ipl_prediction", image=image)
+app = App(name="ipl_prediction", image=image)
 
-@stub.function(mounts=[Mount.from_local_file("pipe.pkl", remote_path='/root/pipe.pkl')])
+@app.function(mounts=[Mount.from_local_file("pipe.pkl", remote_path='/root/pipe.pkl')])
 @web_endpoint(label="predict", method="POST")
 def predict_percentage(Info: Dict):
     with open('/root/pipe.pkl', 'rb') as f:
