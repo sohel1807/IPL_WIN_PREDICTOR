@@ -1,4 +1,4 @@
-# base image
+# base image is python 3.11
 FROM python:3.11
 
 # workdir
